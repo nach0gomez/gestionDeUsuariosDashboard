@@ -7,8 +7,9 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "usuarios")
+@Entity // * indicamos que hace referencia hacia la BD
+@Table(name = "usuarios") //* aqui le indicamos a que tabla debe de ir, hibernate tambien necesita la columna que es
+                            // * y cual es su PK, con la anotacion ID
 @ToString @EqualsAndHashCode
 public class Usuario {
 

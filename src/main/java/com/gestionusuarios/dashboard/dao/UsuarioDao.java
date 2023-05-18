@@ -1,5 +1,8 @@
 package com.gestionusuarios.dashboard.dao;
 
+// * cada clase es una tabla
+
+
 import com.gestionusuarios.dashboard.models.Usuario;
 
 import java.util.List;

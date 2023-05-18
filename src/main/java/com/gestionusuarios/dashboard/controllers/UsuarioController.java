@@ -16,7 +16,8 @@ import java.util.List;
 @RestController
 public class UsuarioController {
 
-    @Autowired
+    @Autowired// * sirve para conectar la clase usuarioDaoImp cree un objeto y la guarda en esta varabiale, y
+    // * no hace falta crear tantos objetos de ese tipo
     private UsuarioDao usuarioDao;
 
 
@@ -25,6 +26,7 @@ public class UsuarioController {
     @Autowired
     private JWTUtil jwtUtil;
 
+    // * especificar la url a la que se entra para retornar esto
     @RequestMapping(value = "api/usuarios", method = RequestMethod.GET)
     public List<Usuario> getUsuarios(@RequestHeader(value="Authorization") String token) {
         if (!validarToken(token)) { return null; }
