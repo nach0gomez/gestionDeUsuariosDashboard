@@ -1,8 +1,8 @@
-package com.cursojava.curso.controllers;
+package com.gestionusuarios.dashboard.controllers;
 
-import  com.cursojava.curso.dao.UsuarioDao;
-import com.cursojava.curso.models.Usuario;
-import com.cursojava.curso.utils.JWTUtil;
+import com.gestionusuarios.dashboard.dao.UsuarioDao;
+import com.gestionusuarios.dashboard.models.Usuario;
+import com.gestionusuarios.dashboard.utils.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

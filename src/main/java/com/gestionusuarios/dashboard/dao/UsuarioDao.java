@@ -1,6 +1,6 @@
-package com.cursojava.curso.dao;
+package com.gestionusuarios.dashboard.dao;
 
-import com.cursojava.curso.models.Usuario;
+import com.gestionusuarios.dashboard.models.Usuario;
 
 import java.util.List;
 

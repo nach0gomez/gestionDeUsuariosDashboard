@@ -1,6 +1,6 @@
-package com.cursojava.curso.dao;
+package com.gestionusuarios.dashboard.dao;
 
-import com.cursojava.curso.models.Usuario;
+import com.gestionusuarios.dashboard.models.Usuario;
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;
 import org.springframework.stereotype.Repository;

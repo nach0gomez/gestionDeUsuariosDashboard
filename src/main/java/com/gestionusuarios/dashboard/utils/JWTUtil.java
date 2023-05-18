@@ -1,4 +1,4 @@
-package com.cursojava.curso.utils;
+package com.gestionusuarios.dashboard.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;

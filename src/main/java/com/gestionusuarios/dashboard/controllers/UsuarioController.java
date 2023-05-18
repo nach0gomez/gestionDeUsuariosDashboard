@@ -1,14 +1,16 @@
-package com.cursojava.curso.controllers;
+package com.gestionusuarios.dashboard.controllers;
 
-import com.cursojava.curso.dao.UsuarioDao;
-import com.cursojava.curso.models.Usuario;
-import com.cursojava.curso.utils.JWTUtil;
+//* sirve para manejar las url, por ejemplo si un usuario entra a alguna pagina web
+//* le devuelva alguna cosa en especifico
+
+import com.gestionusuarios.dashboard.dao.UsuarioDao;
+import com.gestionusuarios.dashboard.models.Usuario;
+import com.gestionusuarios.dashboard.utils.JWTUtil;
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

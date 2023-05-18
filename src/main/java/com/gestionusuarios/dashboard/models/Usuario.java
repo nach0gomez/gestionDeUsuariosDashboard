@@ -1,4 +1,4 @@
-package com.cursojava.curso.models;
+package com.gestionusuarios.dashboard.models;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
